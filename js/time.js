@@ -30,8 +30,8 @@ function displayClock() {
 
     document.getElementById('hour').innerText = hours;
     document.getElementById('separator').innerHTML = ' : ';
-    document.getElementById('minutes').innerText = minutes + ' ' + ampm;
-
+    document.getElementById('minutes').innerText = minutes;
+    document.getElementById('ampm').innerText = ampm;
     document.getElementById('month').innerText = mm;
     document.getElementById('day').innerText = dd;
 
