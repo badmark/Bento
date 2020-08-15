@@ -20,8 +20,8 @@ function displayClock() {
     var dd = d.getDate();
     var min = (mins = ('0' + d.getMinutes()).slice(-2));
     var hh = d.getHours();
-    var hours = date.getHours();
-    var minutes = date.getMinutes();
+    var hours = d.getHours();
+    var minutes = d.getMinutes();
     var ampm = hours >= 12 ? 'pm' : 'am';
     hours = hours % 12;
     hours = hours ? hours : 12; // the hour '0' should be '12'
